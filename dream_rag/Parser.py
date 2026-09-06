@@ -5,6 +5,7 @@ Extracts ONLY the Abstract and Conclusion/Discussion sections from academic
 PDFs (built with dream-interpretation papers in mind, but generic enough for
 most journal-formatted PDFs).
 
+
 Strategy:
 1. Pull raw text per page with pdfplumber.
 2. Join into one big string.

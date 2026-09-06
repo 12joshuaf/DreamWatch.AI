@@ -32,6 +32,7 @@ import numpy as np
 from sklearn.decomposition import PCA
 
 
+
 @dataclass
 class DocRecord:
     doc_id: str
