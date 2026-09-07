@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="298ba0b2-a2ab-4ab8-8662-4023ee87c773" name="Changes" comment="create initial RAG pipeline with PCA">
+      <change afterPath="$PROJECT_DIR$/dream_rag/fetch_papers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dream_rag/Embeddings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dream_rag/Embeddings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dream_rag/Example_Usage.py" beforeDir="false" afterPath="$PROJECT_DIR$/dream_rag/Example_Usage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dream_rag/Parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/dream_rag/Parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dream_rag/Pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/dream_rag/Pipeline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dream_rag/Vector_Store.py" beforeDir="false" afterPath="$PROJECT_DIR$/dream_rag/Vector_Store.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,15 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/12joshuaf/DreamCatch-AI",
-    "accountId": "8a018520-fd0f-4c18-b218-7e8c69f730c3"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;12joshuaf&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/12joshuaf/DreamCatch-AI&quot;,
+    &quot;accountId&quot;: &quot;8a018520-fd0f-4c18-b218-7e8c69f730c3&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3Ixwe7Hd4ZynydxfSPx2s65Wtrq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,6 +48,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Example_Usage.executor": "Run",
+    "Python.fetch_papers.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -87,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788720734504</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create initial RAG pipeline with PCA">
+      <option name="closed" value="true" />
+      <created>1788721003914</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1788721003914</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
