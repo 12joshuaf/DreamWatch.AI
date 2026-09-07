@@ -8,10 +8,11 @@ A small RAG pipeline purpose-built for papers on dream interpretation:
 - **Embeddings** (`embeddings.py`) — calls OpenAI's embeddings API
   (`text-embedding-3-small` by default) on the extracted text.
 - **Vector store** (`vector_store.py`) — instead of a hosted vector DB, fits
-  scikit-learn's `PCA` on your corpus's embeddings and stores the
-  dimensionality-reduced vectors in memory (with save/load to disk). Search
-  is cosine similarity in the reduced space.
-- **Pipeline** (`pipeline.py`) — puts it together: ingest a folder of PDFs,
+  PCA (a small numpy/SVD implementation, no sklearn/scipy dependency) on
+  your corpus's embeddings and stores the dimensionality-reduced vectors in
+  memory (with save/load to disk). Search is cosine similarity in the
+  reduced space.
+- **Pipeline** (`pipeline.py`) — wires it together: ingest a folder of PDFs,
   then ask questions; retrieved excerpts are passed to an OpenAI chat model
   to generate the final answer.
 
@@ -21,7 +22,6 @@ A small RAG pipeline purpose-built for papers on dream interpretation:
 pip install -r requirements.txt
 export OPENAI_API_KEY=sk-...
 ```
-
 
 ## Usage
 
@@ -51,7 +51,31 @@ Or from the command line:
 python example_usage.py ./papers "What do teeth-falling-out dreams usually mean?"
 ```
 
-## Notes / things to tune
+## Fetching papers
+
+`fetch_papers.py` pulls open-access papers on dream interpretation from
+PubMed Central (via NCBI's E-utilities API + BeautifulSoup to locate each
+article's PDF link) and saves them straight into `./papers`, ready for
+`ingest_directory`. It only pulls from PMC's "open access" filter — genuinely
+free-to-download peer-reviewed literature — rather than scraping paywalled
+publisher sites, which would violate their terms of service.
+
+```bash
+python fetch_papers.py --count 100 --outdir ./papers
+```
+
+Options:
+- `--query` — override the default search terms
+- `--api-key` — optional NCBI API key (raises rate limit from 3 to 10 req/sec; get one free at ncbi.nlm.nih.gov/account/settings)
+- `--email` — optional contact email, recommended by NCBI for API usage
+- `--delay` — seconds between requests (default ~3/sec, NCBI's unauthenticated limit)
+
+Not every PMC article yields a parsable PDF link (page templates vary), so
+the script over-fetches candidate IDs and skips ones it can't resolve —
+check the `[skip]` lines in the output if you end up with fewer than
+requested.
+
+
 
 - **`pca_components`**: defaults to 50. With very few papers (fewer than
   `pca_components`), the store automatically shrinks the number of
