@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="298ba0b2-a2ab-4ab8-8662-4023ee87c773" name="Changes" comment="create initial RAG pipeline with PCA">
-      <change afterPath="$PROJECT_DIR$/dream_rag/fetch_papers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Requirements.txt" afterDir="false" />
+    <list default="true" id="298ba0b2-a2ab-4ab8-8662-4023ee87c773" name="Changes" comment="create fetch papers, update readme">
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788721003914</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create fetch papers, update readme">
+      <option name="closed" value="true" />
+      <created>1788791760626</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1788791760626</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create initial RAG pipeline with PCA" />
-    <option name="LAST_COMMIT_MESSAGE" value="create initial RAG pipeline with PCA" />
+    <MESSAGE value="create fetch papers, update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="create fetch papers, update readme" />
   </component>
 </project>

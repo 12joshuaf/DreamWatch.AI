@@ -66,7 +66,7 @@ python fetch_papers.py --count 100 --outdir ./papers
 
 Options:
 - `--query` — override the default search terms
-- `--api-key` — optional NCBI API key (raises rate limit from 3 to 10 req/sec; get one free at ncbi.nlm.nih.gov/account/settings)
+- `--api-key` — optional NCBI API keyu=
 - `--email` — optional contact email, recommended by NCBI for API usage
 - `--delay` — seconds between requests (default ~3/sec, NCBI's unauthenticated limit)
 
