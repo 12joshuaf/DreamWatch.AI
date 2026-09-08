@@ -4,8 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="298ba0b2-a2ab-4ab8-8662-4023ee87c773" name="Changes" comment="create fetch papers, update readme">
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    <list default="true" id="298ba0b2-a2ab-4ab8-8662-4023ee87c773" name="Changes" comment="update readme">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/fetch_papers.py" beforeDir="false" afterPath="$PROJECT_DIR$/dream_rag/fetch_papers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC10216061.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC11351299.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC11493318.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC11697393.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC11723132.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC12049429.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC12337682.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC12337890.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC12755932.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC13000286.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC13155465.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC13341471.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC13350862.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC13357791.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC3183634.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC3395964.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC3872037.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC4553613.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC6088287.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC6115518.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC6447687.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC6901388.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC7377375.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC7481704.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC7560506.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC7973031.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dream_rag/papers/PMC9029163.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +70,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Example_Usage.executor": "Run",
-    "Python.fetch_papers.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Example_Usage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fetch_papers.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\joshu\PycharmProjects\DreamCatch AI\dream_rag" />

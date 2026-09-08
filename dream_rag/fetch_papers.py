@@ -209,7 +209,7 @@ def fetch_papers(query: str, count: int, outdir: str, delay: float = 0.34) -> in
 
 def main():
     parser = argparse.ArgumentParser(description="Fetch open-access dream-interpretation papers via Europe PMC.")
-    parser.add_argument("--count", type=int, default=100, help="Number of papers to fetch (default: 100)")
+    parser.add_argument("--count", type=int, default=1000, help="Number of papers to fetch (default: 1000)")
     parser.add_argument("--outdir", type=str, default="./papers", help="Directory to save PDFs into (default: ./papers)")
     parser.add_argument("--query", type=str, default=DEFAULT_QUERY, help="Europe PMC search query")
     parser.add_argument("--delay", type=float, default=0.34, help="Delay in seconds between requests (default: 0.34)")
